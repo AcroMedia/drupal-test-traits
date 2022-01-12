@@ -1,5 +1,5 @@
 {
-    "name": "acromedia/drupal-profile-test-trait",
+    "name": "acromedia/drupal-test-traits",
     "description": "Useful traits for Drupal testing include a trait that optimises install profile testing",
     "type": "library",
     "require": {
