@@ -183,7 +183,7 @@ trait DatabaseDumpTestTrait {
           throw new \RuntimeException(implode(PHP_EOL, $errors));
         }
         $this->rebuildAll();
-        $this->postUpdateStep();
+        $this->postUpdateStep($container);
       }
     }
 
