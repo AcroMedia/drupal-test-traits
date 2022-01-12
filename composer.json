@@ -1,0 +1,20 @@
+{
+    "name": "acromedia/drupal-profile-test-trait",
+    "description": "Use an install profile that installs from config in your tests",
+    "type": "library",
+    "require": {
+        "drupal/core-dev": "^9.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Acromedia\\DrupalProfileTestTrait\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Pott",
+            "email": "alex.a.pott@googlemail.com"
+        }
+    ]
+}
