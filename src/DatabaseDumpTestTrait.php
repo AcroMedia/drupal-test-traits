@@ -17,7 +17,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  *
  * @todo Add documentation about usage.
  */
-trait ProfileTestTrait {
+trait DatabaseDumpTestTrait {
   use DrushTestTrait;
   use FunctionalTestSetupTrait;
 

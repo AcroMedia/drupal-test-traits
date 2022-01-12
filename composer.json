@@ -1,6 +1,6 @@
 {
     "name": "acromedia/drupal-test-traits",
-    "description": "Useful traits for Drupal testing include a trait that optimises install profile testing",
+    "description": "Useful traits for Drupal testing include a trait that optimises testing using database dumps",
     "type": "library",
     "require": {
         "drupal/core-dev": "^9.2 || ^10",
