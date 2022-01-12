@@ -1,14 +1,16 @@
 {
     "name": "acromedia/drupal-profile-test-trait",
-    "description": "Use an install profile that installs from config in your tests",
+    "description": "Useful traits for Drupal testing include a trait that optimises install profile testing",
     "type": "library",
     "require": {
-        "drupal/core-dev": "^9.2"
+        "drupal/core-dev": "^9.2 || ^10",
+        "drupal/core": "^9.2 || ^10",
+        "drush/drush": "^10 || ^11.0"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Acromedia\\DrupalProfileTestTrait\\": "src/"
+            "Acromedia\\DrupalTestTraits\\": "src/"
         }
     },
     "authors": [
